@@ -5,9 +5,9 @@ public class Conditionals {
 
         boolean isAlien = true;
 
-        if(isAlien == false) {
+        if (isAlien == false) {
             System.out.println("Not an Alien");
-        }else{
+        } else {
             System.out.println("OMG its an Alien");
         }
     }

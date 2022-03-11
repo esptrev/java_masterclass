@@ -41,6 +41,5 @@ public class Operators {
         System.out.println(result); // 15
 
 
-
     }
 }
