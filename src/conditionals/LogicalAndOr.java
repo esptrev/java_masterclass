@@ -6,13 +6,18 @@ public class LogicalAndOr {
         if (topScore < 100) {
             System.out.println("You have the high score");
         }
-        int secondScore = 60;
+        int secondScore = 95;
         if (topScore > secondScore && topScore < 100) {
             System.out.println("Greater than second score and less than 100");
         }
 
         if (topScore < 100 || topScore > secondScore) {
             System.out.println("Logical OR statment works");
+        }
+
+        int newValue = 50;
+        if(newValue == 50){
+            System.out.println("Remember to use equality operator == not the = assignment operator ");
         }
 
         boolean isCar = false;
