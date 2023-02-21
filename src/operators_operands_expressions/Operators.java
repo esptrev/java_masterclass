@@ -41,5 +41,30 @@ public class Operators {
         System.out.println(result); // 15
 
 
-    }
-}
+        ///  TERNARY OPERATORS
+
+        String makeOfCar = "Volkswagon";
+        boolean isDomestic = makeOfCar == "Volkswagon" ? false : true;
+        System.out.println(isDomestic);
+
+        if(isDomestic){
+            System.out.println("This car is made in USA");
+        }
+        if(!isDomestic){
+            System.out.println("This car is not made in the USA");
+        }
+
+        int ageOfClient = 16;
+        String ageText = (ageOfClient >= 18) ? "Over Eighteen/adult" : "Still a minor";
+        System.out.println("Our client is " + ageText);
+
+        String car = (isDomestic) ? "this vehicle is domestic" : "this car is an import";
+        System.out.println(car);
+
+
+
+
+
+
+    }//END OF MAIN
+}//END OF CLASS

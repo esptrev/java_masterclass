@@ -21,17 +21,29 @@ public class LogicalAndOr {
         }
 
         boolean isCar = false;
-        if (!isCar) {
-            System.out.println("shouldn't happen");
+        if (isCar = true) {
+            System.out.println("This shouldn't print, the if then looks for boolean value and since we re assigned a boolean it compiles");
         }
 
+        if(!isCar){
+            System.out.println("This is appropriate if/then block for boolean, use the !");
+        }
 
         isCar = true;
         boolean wasCar = isCar ? true : false;
         if (wasCar) {
-            System.out.println("wasCar is true");
+            System.out.println("IsCar reassigned to true so this block will execute");
         }
 
 
-    }
-}
+
+
+
+
+
+
+
+
+
+    }//END OF MAIN
+}//END OF CLASS
